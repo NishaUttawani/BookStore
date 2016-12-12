@@ -1,0 +1,521 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Charity BigCallout
+   -------------------------------------- */
+   #charity{
+      background: url('../../images/charity.jpg') no-repeat;
+      height: 430px;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      text-align: center;
+      color: white;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      
+   }
+
+   #charity{
+      -webkit-filter: sepia(100%);
+      filter: grayscale(100%);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+   }
+
+   #charity:hover {
+      -webkit-filter: sepia(0);
+      filter: grayscale(0);
+   }
+
+
+   #charity a{
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      box-shadow: 5px 5px 5px white;
+      font-weight: bold;
+   }
+
+   #charity p{
+
+      font-weight: bold;
+   }
+
+   .alert{
+      display: none;
+      margin-top: 10px;
+   }
+
+   #bigCallout h3{
+      font-family: 'Aref Ruqaa', serif;
+      color:  white;
+      size: 50px;
+      font-weight: bold;
+      background: #e74c3c;
+      opacity: 0.7;
+      padding: 10px;
+      text-align: center;
+   }
+/* --------------------------------------
+   Features
+   -------------------------------------- */
+   #featuresHeading h2{
+      color: #FF5733;
+      font-family: 'Aref Ruqaa', serif;
+
+   }
+
+   #featuresHeading p{
+      font-family: cursive;
+      color: grey;
+   }
+
+   .feature{
+      text-align: center;
+   }
+
+   .feature .panel{
+      height: 430px;
+   }
+   .feature p a{
+      color: #FF5733;
+      font-weight: bold;
+   }
+   .feature h3{
+      font-family: Raleway, sans-serif;
+      font-size: 22px;
+      color: #FF5733;
+      letter-spacing: 5px;
+      font-weight: bold;
+   }
+   .feature img{
+      width: 210px;
+      height: 265px;
+      align-content: center;
+      margin-bottom: 10px;
+      box-shadow: 2px 5px 5px #ea3;
+   }
+
+   .feature a{
+      font-weight: bold;
+      font-family: cursive;
+   }
+   
+   #featuresHeading h2{
+      font-weight: bold;
+   }
+   
+   .panel img {
+      backface-visibility:hidden;
+      -webkit-transition:all .5s;
+      -moz-transition:all .5s;
+      transition:all .5s
+   }
+
+   .panel img:hover {
+     -webkit-transform:rotateY(180deg);
+     -moz-transform:rotateY(180deg);
+     transform:rotateY(180deg)
+  }
+
+  
+/* --------------------------------------
+   Moreinfo  Tabbable
+   -------------------------------------- */
+   #moreInfo h3{
+      font-weight: bold;
+      color: #a45;
+   }
+   .tab-content h4{
+      font-family:  Raleway, sans-serif;
+      font-weight: bold;
+   }
+   
+   #tab2 img{
+      width: 140px;
+      height: 140px;
+      margin-right: 10px;
+   }
+
+   #quotes h3{
+      font-family:'Tangerine', serif;
+      font-size: 60px;
+      color: white;
+      text-align: center;
+      background:black;
+      opacity: 0.6;
+
+   }
+
+   #quotes{
+      font-size: 40px;
+      font-family:'Tangerine', serif;
+      font-weight: bold;
+      background: url('../../images/books2.jpg');
+   }
+   
+   #quotes ul{
+      opacity: 0.8;
+   }
+   #quotes a{
+      color: #FF5733;
+      font-weight: bold;
+
+
+   }
+
+   #quotes a:hover{
+      color: black;
+      text-decoration: underline;
+   }
+
+   
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar-brand{
+      padding: 0px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   .navbar-brand img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+ }
+
+ .navbar-brand:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#logo{
+   height: 100px;
+   width: 100px;
+
+}
+
+#searchInput{
+   width:5vw;
+   margin-top: 30px;
+   margin-left: 0px;
+
+}
+
+#searchButton{
+   margin-top: 30px;
+}
+
+.navbar-nav{
+   margin-top: 30px;
+   margin-left: 10px;
+
+}
+
+.navbar{
+   height: auto;
+   background:black;
+   opacity: 0.7;
+}
+
+.collapse ul li a {
+   color: white;
+   font-family: Raleway, sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+#active a{
+   color: #FF5733;
+}
+.collapse ul li a:hover{
+   color: #FF5733;
+   text-decoration: underline;
+}
+
+.dropdown-menu{
+   background: #FF5733;
+}
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+      margin-top: 120px;
+
+   }
+   #myCarousel .item { 
+      height: 400px; 
+      color: #FF5733;
+   }
+   #myCarousel .item h4{
+      color: #FF5733;
+      font-family: 'Aref Ruqaa', serif;
+   }
+   .carousel-caption {
+      font-size: 24px;
+   }
+
+   .carousel-caption h4 {
+      font-size: 32px;
+      font-weight: bold;
+   }
+
+   #slide0 {
+      background: url('../../images/onlinebooks_medium_03.jpg') top center no-repeat;
+   }
+
+   #slide1 {
+      background: url('../../images/travel_medium_02.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/science_medium_01.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/food_medium_02.jpg') top center no-repeat;
+   }
+
+
+   #slide4 {
+      background: url('../../images/sports_medium_01.jpg') top center no-repeat;
+   }
+
+   /* --------------------------------------
+   Contests
+   -------------------------------------- */
+   .thumbnails{
+      margin: 20px 0;
+   }
+
+   .thumbnail{
+      position: relative;
+   }
+   .thumbnail .price{
+      font-size: 22px;
+      position: absolute;
+      right:-10px;
+      top: -10px;
+      padding: 10px;
+   }
+
+   #contests .caption h4{
+      font-size: 40px;
+      color:  #e74c3c ;
+      text-align: center;
+      font-family: 'Bree Serif', serif;
+   }
+
+   #contests h3{
+      font-family: 'Lobster Two', cursive;
+      color: #FF5733;
+      font-size: 40px;
+      background: black;
+      opacity: 0.7;
+      padding: 10px;
+   }
+   
+   #contests{
+      text-align: center;
+   }
+
+   #contests a{
+      color: #a93226;
+      font-weight: bold;
+      font-size: 20px;
+   }
+
+   #contests .btn{
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+   }
+
+   #contests a:hover{
+      color: #FF5733;
+      text-decoration: underline;
+      font-weight: bold;
+   }
+
+   .modal-body button{
+      margin-top: 10px; 
+   }
+
+   .thumbnail img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+   }
+
+   .thumbnail img:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(0.9);
+   }
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+   footer {
+      background: #333;
+      color: #eee;
+      font-size: 11px;
+      padding: 20px;
+   }
+   ul.unstyled {
+      list-style: none;
+      padding: 0;
+   }
+
+/* --------------------------------------
+   Modal
+   -------------------------------------- */
+   #contests .modal-header h3{
+      background: none;
+   }
+
+   #contests .close{
+      color: black;
+   }
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+   /* Portrait & landscape phone */
+   @media (max-width: 480px) {
+
+   }
+
+   /* Landscape phone to portrait tablet */
+   @media (max-width: 768px) {
+      .navbar-nav li a{
+         font-size: 20px;
+         color: white;
+         font-weight: bold;
+         padding: 5;
+
+      }
+
+      .navbar-nav li a:hover {
+         color: #FF5733;
+         text-decoration: underline;
+      }
+      
+      #myCarousel .item{
+         height: 310px;
+      }
+      #slide0 {
+         background: url('../../images/onlinebooks_small_03.jpg') top center no-repeat;
+      }
+
+      #slide1 {
+         background: url('../../images/travel_small_02.jpg') top center no-repeat;
+      }
+
+      #slide2 {
+         background: url('../../images/science_small_01.jpg') top center no-repeat;
+      }
+
+      #slide3 {
+         background: url('../../images/food_small_02.jpg') top center no-repeat;
+      }
+
+
+      #slide4 {
+         background: url('../../images/sports_small_01.jpg') top center no-repeat;
+      }
+
+      .carousel-caption {
+         font-size: 16px;
+      }
+
+      .carousel-caption h4 {
+         font-size: 22px;
+      }
+
+      #quotes h3{
+
+         font-size: 30px;
+         text-align: center;
+      }
+
+      #quotes{
+         font-size: 25px;
+      }
+
+      #contests .caption h4{
+         font-size: 20px;
+         color:  #e74c3c ;
+         text-align: center;
+         font-family: 'Bree Serif', serif;
+      }
+
+      #contests a{
+         color: #a93226;
+         font-weight: bold;
+         font-size: 15px;
+      }
+      
+      .thumbnail .price{
+         font-size: 12px;
+
+      }
+
+      
+
+   }
+
+   /* Large desktop */
+   @media (min-width: 1200px) {
+
+      #myCarousel .item{
+         height: 500px;
+      }
+      #slide0 {
+         background: url('../../images/onlinebooks_large_03.jpg') top center no-repeat;
+      }
+
+      #slide1 {
+         background: url('../../images/travel_large_02.jpg') top center no-repeat;
+      }
+
+      #slide2 {
+         background: url('../../images/science_large_01.jpg') top center no-repeat;
+      }
+
+      #slide3 {
+         background: url('../../images/food_large_02.jpg') top center no-repeat;
+      }
+
+
+      #slide4 {
+         background: url('../../images/sports_large_01.jpg') top center no-repeat;
+      }
+
+   }
+   .collapse > ul > li >a
+   {
+    font-size:1vw;
+   }
+
+   .navbar-form > input{
+      margin-left: 0px;
+   }
+
